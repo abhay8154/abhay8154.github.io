@@ -85,7 +85,7 @@
 
          <div class="three columns">
 
-            <img class="profile-pic"  src="images/profilepic.jpg" alt="Could not load image" style="width:500px;height:500px;" />
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="Could not load image" style="width:600px;height:200px;" />
 
          </div>
 
@@ -153,7 +153,8 @@
                   <p>
                   <strong> Courses: </strong> <br>
                   <strong> Biotechnology </strong> : Genetic Engineering, Molecular Biology, Microbiology, Biochemistry <br>
-                  <strong> Mathematics </strong> : Linear Algebra, Multivariable Calculus, Differential Equations, Real & Complex Analysis <br>
+                  <strong> Mathematics </strong> : Linear Algebra, Multivariable Calculus, Partial and Ordinary Differential Equations, 
+                  Real Analysis & Complex Analysis <br>
                   <strong> Current CGPA </strong>: 8.34/10  
                   </p>
 
@@ -169,8 +170,11 @@
                   <p class="info">Class XII (Senior Secondary Examination), ISC board  <span>&bull;</span> <em class="date">May 2017</em></p>
 
                   <p>
-                  <strong>Class XII (ISC)</strong>: Physics, Chemistry, Mathematics, Computer Science. Grade: 97.60% <br>
-                  <strong>Class X (ICSE)</strong>: Science, Computer Science, Mathematics, Grade: 96.17%
+                  <strong>Class XII (ISC)</strong>: Physics, Chemistry, Mathematics, Computer Science.
+                  <strong>Grade</strong>: 97.60% <br>
+
+                  <strong>Class X (ICSE)</strong>: Science, Computer Applications, Mathematics.
+                  <strong>Grade</strong>: 96.17%
                   </p>
 
                </div>
@@ -201,15 +205,9 @@
 
                   <p>
                   <ul>
-                     <li>
-                        Implementation of Autoencoders for dimensionality reduction on single-cell RNA seq datasets.
-                     </li>
-                     <li>
-                        Used Ensemble Learning for clustering the cells and benchmarking the results against gold standard clusterings. 
-                     </li>
-                     <li>
-                        Biological interpretation of results through studying the network architecture and cell-type annotation of different clusters. 
-                     </li>
+                     <li>Implementation of Autoencoders for dimensionality reduction on single-cell RNA seq datasets.</li>
+                     <li>Used Ensemble Learning for clustering the cells and benchmarking the results against gold standard clusterings.</li>
+                     <li>Biological interpretation of results through studying the network architecture and cell-type annotation of different clusters.</li>
                   </ul>
                   </p>
 
@@ -239,10 +237,77 @@
 
       </div> <!-- End Work -->
 
+      
+      </div><!-- container -->
+      </section><!-- portfolio-section -->
+   
+   <section class="iconboxes-section section" id="projects">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12">
+               <div class="heading">
+                  <h4><b>Projects</b></h4>
+               </div>
+            </div><!-- col-sm-12 -->
+            
+            <div class="col-sm-6 col-md-6 col-lg-4">
+               <div class="iconbox margin-b-30">
+                  <i class="line-icon icon-rl"></i>
+                  <h5 class="margin-tb-20"><b>In silico single-cell analysis to elucidate intra-tumour heterogeneity</b></h5>
+                  <p> 
+                     <ol> 
+                     <li>Made single-cell RNA sequencing pipeline in R using Bioconductor and Seurat. Preprocessed
+                        the datasets by performing QC analysis, quantifying differential expression, and handling
+                        confounder variables to control for Batch effect.</li>
+                     <li> Used Uniform Manifold Approximation and Projection (UMAP), t-Distributed Stochastic
+                          Neighbor Embedding (tSNE) and Principal Component Analysis (PCA) to analyze the sequence
+                           data. </li> 
+                     <li> Wrote scripts to run the jobs on Supercomputer Param Ishan, used Cellranger, 10x Genomics to
+                          process the FASTQ files for Breast cancer dataset. </li>
+                     </ol>
+                  </p>
+               </div><!-- counter -->
+            </div><!-- col-md-4 -->
+            <div class="col-sm-6 col-md-6 col-lg-4">
+               <div class="iconbox margin-b-30">
+                  <i class="line-icon icon-fp"></i>
+                  <h5 class="margin-tb-20"><b>Identification of novel DNA Transcription factors by In silico approaches</b></h5>
+                  <p> 
+                     <ol>
+                     <li>Analyzing whether a protein is a Transcription factor and checking if a Nuclear localization
+                         sequence is present or not.</li>
+                     <li>Classifying whether the sequence it is localizing is a promoter or not and finding the binding
+                         sites on the DNA strand by using BLAST and other Bioinformatics software.</li>
+                     </ol>
+                  </p>
+               </div><!-- counter -->
+            </div><!-- col-md-4 -->
+            <div class="col-sm-6 col-md-6 col-lg-4">
+               <div class="iconbox margin-b-30">
+                  <i class="line-icon icon-fr"></i>
+                  <h5 class="margin-tb-20"><b>Detecting COVID-19 in chest X-ray images through Transfer Learning</b></h5>
+                  <p> 
+                  <ol>
+                  <li> Implemented a pre-trained VGG-16 model for binary classification of COVID-19 through chest
+                       X-rays dataset.</li>
+                  <li>Used OpenCV for image preprocessing and transfer learning to obtain 90-92% accuracy, 100%
+                      sensitivity and 80% specificity.</li>
+                  </ol>
+                  </p>
+               </div><!-- counter -->
+
+            </div><!-- col-md-4 -->
+            
+         </div><!-- row -->
+      </div><!-- container -->
+   </section><!-- progression-section -->
+
+
+
 
       <!-- Skills
       ----------------------------------------------- -->
-      <div class="row skill">
+      <!--<div class="row skill">
 
          <div class="three columns header-col">
             <h1><span>Skills</span></h1>
@@ -267,7 +332,7 @@
                   <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
 					</ul>
 
-				</div><!-- end skill-bars -->
+				</div>end skill-bars -->
 
 			</div> <!-- main-col end -->
 
@@ -284,7 +349,7 @@
 
          <div class="twelve columns collapsed">
 
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Check out some of my finished courses.</h1>
 
             <!-- portfolio-wrapper -->
             <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
@@ -293,11 +358,11 @@
                   <div class="item-wrap">
 
                      <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/coffee.jpg">
+                        <img alt="" src="images/portfolio/ai.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Coffee</h5>
-                              <p>Illustrration</p>
+          					      <h5>AI for Medical Diagnosis</h5>
+                              <p>Deep Learning</p>
           					   </div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -310,11 +375,11 @@
                   <div class="item-wrap">
 
                      <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/console.jpg">
+                        <img alt="" src="images/portfolio/0001.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Console</h5>
-                              <p>Web Development</p>
+          					      <h5>Deep Learning Specialization</h5>
+                              <p>Artificial Intelligence</p>
           					   </div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -327,11 +392,11 @@
                   <div class="item-wrap">
 
                      <a href="#modal-03" title="">
-                        <img alt="" src="images/portfolio/judah.jpg">
+                        <img alt="" src="images/portfolio/Convolutional Neural Networks.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Judah</h5>
-                              <p>Webdesign</p>
+          					      <h5>Convolutional Neural Networks</h5>
+                              <p>Facial Recognition System</p>
           					   </div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -344,11 +409,11 @@
                   <div class="item-wrap">
 
                      <a href="#modal-04" title="">
-                        <img alt="" src="images/portfolio/into-the-light.jpg">
+                        <img alt="" src="images/portfolio/Sequence Models.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Into The Light</h5>
-                              <p>Photography</p>
+          					      <h5>Sequence Models</h5>
+                              <p>Natural Language Processing</p>
           					   </div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -357,7 +422,7 @@
                   </div>
           		</div> <!-- item end -->
 
-               <div class="columns portfolio-item">
+               <!--<div class="columns portfolio-item">
                   <div class="item-wrap">
 
                      <a href="#modal-05" title="">
@@ -372,7 +437,7 @@
                      </a>
 
                   </div>
-          		</div> <!-- item end -->
+          		
 
                <div class="columns portfolio-item">
                   <div class="item-wrap">
@@ -389,7 +454,7 @@
                      </a>
 
                   </div>
-          		</div> <!-- item end -->
+          		
 
                <div class="columns portfolio-item">
                   <div class="item-wrap">
@@ -406,8 +471,7 @@
                      </a>
 
                   </div>
-          		</div> <!-- item end -->
-
+          		
                <div class="columns portfolio-item">
                   <div class="item-wrap">
 
@@ -423,7 +487,7 @@
                      </a>
 
                   </div>
-          		</div>  <!-- item end -->
+          		</div>   item end -->
 
             </div> <!-- portfolio-wrapper end -->
 
@@ -435,16 +499,17 @@
 
          <div id="modal-01" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
+		      <img class="scale-with-grid" src="images/portfolio/modals/ai.jpg" alt="" />
 
 		      <div class="description-box">
-			      <h4>Coffee Cup</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+			      <h4>AI for Medical Diagnosis</h4>
+			      <p>Classifying diseases on chest x-rays using a neural network. Implementing standard evaluation metrics to see how well a model performs in diagnosing diseases. Implement an appropriate loss function for image segmentation, and apply a pre-trained U-net model to segment tumor regions in 3D brain MRI images.
+               </p>
+               <span class="categories"><i class="fa fa-tag"></i>Image Segmentation, Multi-class classification </span>
 		      </div>
 
             <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
+               <a href="https://www.coursera.org/account/accomplishments/records/F4Q7WCYGX3BT" target="_blank">Details</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
@@ -452,16 +517,17 @@
 
          <div id="modal-02" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+		      <img class="scale-with-grid" src="images/portfolio/modals/0001.jpg" alt="" />
 
 		      <div class="description-box">
-			      <h4>Console</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
+			      <h4>Deep Learning Specialization</h4>
+			      <p>Case studies from healthcare, autonomous driving, sign language reading, music generation, and natural language processing.
+               </p>
+               <span class="categories"><i class="fa fa-tag"></i>Neural Networks, Hyperparameter Optimization, Transfer Learning</span>
 		      </div>
 
             <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
+               <a href="https://www.coursera.org/account/accomplishments/specialization/642RQYLZVSLC" target="_blank">Details</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
@@ -469,16 +535,16 @@
 
          <div id="modal-03" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+		      <img class="scale-with-grid" src="images/portfolio/modals/Convolutional Neural Networks.jpg" alt="" />
 
 		      <div class="description-box">
-			      <h4>Judah</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
+			      <h4>Convolutional Neural Networks</h4>
+			      <p>Learned about Resnets, Inception network, YOLO. Applications of computer vision in face recognition and object detection</p>
+               <span class="categories"><i class="fa fa-tag"></i>Tensorflow, Image processing</span>
 		      </div>
 
             <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
+               <a href="https://www.coursera.org/account/accomplishments/records/LY2C8L7SM345" target="_blank">Details</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
@@ -486,21 +552,23 @@
 
          <div id="modal-04" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+		      <img class="scale-with-grid" src="images/portfolio/modals/Sequence Models.jpg" alt="" />
 
 		      <div class="description-box">
-			      <h4>Into the Light</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+			      <h4>Sequence Models</h4>
+			      <p> Understanding how to build and train Recurrent Neural Networks (RNNs), and commonly-used variants such as GRUs and LSTMs.
+                  Applying sequence models to natural language problems, including text synthesis and to audio applications, including speech recognition and music synthesis.
+               </p>
+               <span class="categories"><i class="fa fa-tag"></i>Recurrent Neural Network, Long Short-Term Memory (LSTM)</span>
 		      </div>
 
             <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
+               <a href="https://www.coursera.org/account/accomplishments/records/QCYH9D6YDP83" target="_blank">Details</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
 	      </div><!-- modal-04 End -->
-
+<!--
          <div id="modal-05" class="popup-modal mfp-hide">
 
 		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
@@ -516,7 +584,7 @@
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
-	      </div><!-- modal-05 End -->
+	      </div>modal-05 End 
 
          <div id="modal-06" class="popup-modal mfp-hide">
 
@@ -533,7 +601,7 @@
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
-	      </div><!-- modal-06 End -->
+	      </div>modal-06 End 
 
          <div id="modal-07" class="popup-modal mfp-hide">
 
@@ -550,7 +618,7 @@
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
-	      </div><!-- modal-07 End -->
+	      </div>modal-07 End 
 
          <div id="modal-08" class="popup-modal mfp-hide">
 
@@ -567,7 +635,7 @@
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
-	      </div><!-- modal-01 End -->
+	      </div>modal-01 End -->
 
 
       </div> <!-- row End -->
@@ -577,7 +645,7 @@
 
    <!-- Call-To-Action Section
    ================================================== -->
-   <section id="call-to-action">
+   <!--<section id="call-to-action">
 
       <div class="row">
 
@@ -603,7 +671,7 @@
 
       </div>
 
-   </section> <!-- Call-To-Action Section End-->
+   </section>  Call-To-Action Section End-->
 
 
    <!-- Testimonials Section
@@ -638,11 +706,8 @@
 
                      <li>
                         <blockquote>
-                           <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                           Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                           nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                           </p>
-                           <cite>Mr. Adobe</cite>
+                           <p>Again, you can't connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future. You have to trust in something — your gut, destiny, life, karma, whatever.
+                           <cite>Steve Jobs</cite>
                         </blockquote>
                      </li> <!-- slide ends -->
 
@@ -673,9 +738,7 @@
 
             <div class="ten columns">
 
-                  <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                  <p class="lead">If you have any available opportunity for me at your organization then please contact me. Looking forward to connect and learn.
                   </p>
 
             </div>
@@ -737,7 +800,9 @@
 					   <h4>Address and Phone</h4>
 					   <p class="address">
 						   Abhay Singh<br>
-						   <span>(+91) 7578952820</span>
+						   <span>(+91) 7578952820</span> <br>
+                     <span>abhay18a@iitg.ac.in</span> <br>
+                     <span>ssabhay6@gmail.com</span>
 					   </p>
 <!--
 				   </div>
